@@ -1,0 +1,40 @@
+	component nios_system is
+		port (
+			vga_clk                                : out   std_logic;                                        -- clk
+			VGA_CLK_from_the_VGA_Controller        : out   std_logic;                                        -- CLK
+			VGA_HS_from_the_VGA_Controller         : out   std_logic;                                        -- HS
+			VGA_VS_from_the_VGA_Controller         : out   std_logic;                                        -- VS
+			VGA_BLANK_from_the_VGA_Controller      : out   std_logic;                                        -- BLANK
+			VGA_SYNC_from_the_VGA_Controller       : out   std_logic;                                        -- SYNC
+			VGA_R_from_the_VGA_Controller          : out   std_logic_vector(7 downto 0);                     -- R
+			VGA_G_from_the_VGA_Controller          : out   std_logic_vector(7 downto 0);                     -- G
+			VGA_B_from_the_VGA_Controller          : out   std_logic_vector(7 downto 0);                     -- B
+			SRAM_DQ_to_and_from_the_SRAM           : inout std_logic_vector(15 downto 0) := (others => 'X'); -- DQ
+			SRAM_ADDR_from_the_SRAM                : out   std_logic_vector(19 downto 0);                    -- ADDR
+			SRAM_LB_N_from_the_SRAM                : out   std_logic;                                        -- LB_N
+			SRAM_UB_N_from_the_SRAM                : out   std_logic;                                        -- UB_N
+			SRAM_CE_N_from_the_SRAM                : out   std_logic;                                        -- CE_N
+			SRAM_OE_N_from_the_SRAM                : out   std_logic;                                        -- OE_N
+			SRAM_WE_N_from_the_SRAM                : out   std_logic;                                        -- WE_N
+			LCD_DATA_to_and_from_the_Char_LCD_16x2 : inout std_logic_vector(7 downto 0)  := (others => 'X'); -- DATA
+			LCD_ON_from_the_Char_LCD_16x2          : out   std_logic;                                        -- ON
+			LCD_BLON_from_the_Char_LCD_16x2        : out   std_logic;                                        -- BLON
+			LCD_EN_from_the_Char_LCD_16x2          : out   std_logic;                                        -- EN
+			LCD_RS_from_the_Char_LCD_16x2          : out   std_logic;                                        -- RS
+			LCD_RW_from_the_Char_LCD_16x2          : out   std_logic;                                        -- RW
+			sys_clk                                : out   std_logic;                                        -- clk
+			reset_n                                : in    std_logic                     := 'X';             -- reset_n
+			zs_addr_from_the_SDRAM                 : out   std_logic_vector(12 downto 0);                    -- addr
+			zs_ba_from_the_SDRAM                   : out   std_logic_vector(1 downto 0);                     -- ba
+			zs_cas_n_from_the_SDRAM                : out   std_logic;                                        -- cas_n
+			zs_cke_from_the_SDRAM                  : out   std_logic;                                        -- cke
+			zs_cs_n_from_the_SDRAM                 : out   std_logic;                                        -- cs_n
+			zs_dq_to_and_from_the_SDRAM            : inout std_logic_vector(31 downto 0) := (others => 'X'); -- dq
+			zs_dqm_from_the_SDRAM                  : out   std_logic_vector(3 downto 0);                     -- dqm
+			zs_ras_n_from_the_SDRAM                : out   std_logic;                                        -- ras_n
+			zs_we_n_from_the_SDRAM                 : out   std_logic;                                        -- we_n
+			clk                                    : in    std_logic                     := 'X';             -- clk
+			sdram_clk                              : out   std_logic                                         -- clk
+		);
+	end component nios_system;
+

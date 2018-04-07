@@ -1,0 +1,69 @@
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=D:/MyDocs/altera/de2_115_media_computer_13.0/ --output-directory=D:/MyDocs/altera/de2_115_media_computer_13.0/nios_system/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:D:/MyDocs/altera/de2_115_media_computer_13.0/nios_system.sopcinfo --report-file=html:D:/MyDocs/altera/de2_115_media_computer_13.0/nios_system.html --report-file=qip:D:/MyDocs/altera/de2_115_media_computer_13.0/nios_system/synthesis/nios_system.qip --report-file=cmp:D:/MyDocs/altera/de2_115_media_computer_13.0/nios_system.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=D:/MyDocs/altera/de2_115_media_computer_13.0/nios_system.qsys --language=VERILOG
+Progress: Loading de2_115_media_computer_13.0/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk_50 [clock_source 13.0]
+Progress: Parameterizing module clk_50
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding Interval_Timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module Interval_Timer
+Progress: Adding SDRAM [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM
+Progress: Adding Char_LCD_16x2 [altera_up_avalon_character_lcd 13.0]
+Progress: Parameterizing module Char_LCD_16x2
+Progress: Adding SRAM [altera_up_avalon_sram 13.0]
+Progress: Parameterizing module SRAM
+Progress: Adding VGA_Char_Buffer [altera_up_avalon_video_character_buffer_with_dma 13.0]
+Progress: Parameterizing module VGA_Char_Buffer
+Progress: Adding VGA_Controller [altera_up_avalon_video_vga_controller 13.0]
+Progress: Parameterizing module VGA_Controller
+Progress: Adding VGA_Dual_Clock_FIFO [altera_up_avalon_video_dual_clock_buffer 13.0]
+Progress: Parameterizing module VGA_Dual_Clock_FIFO
+Progress: Adding CPU_fpoint [altera_nios_custom_instr_floating_point 13.0]
+Progress: Parameterizing module CPU_fpoint
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding merged_resets [altera_reset_bridge 13.0]
+Progress: Parameterizing module merged_resets
+Progress: Adding sys_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module sys_clk
+Progress: Adding vga_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module vga_clk
+Progress: Adding External_Clocks [altera_up_clocks 13.0]
+Progress: Parameterizing module External_Clocks
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.VGA_Char_Buffer: Character Resolution: 80 x 60
+Info: nios_system.VGA_Controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes)
+Info: nios_system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: nios_system.VGA_Char_Buffer.avalon_char_source/VGA_Dual_Clock_FIFO.avalon_dc_buffer_sink: The width of the data signal from the source is 40 bits, but is 30 bits to the sink. Avalon Streaming Transform will be executed.
+Info: nios_system: Generating nios_system "nios_system" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 16 modules, 56 connections
+Info: merlin_custom_instruction_transform: After transform: 19 modules, 59 connections
+Info: merlin_translator_transform: After transform: 30 modules, 103 connections
+Info: merlin_domain_transform: After transform: 52 modules, 249 connections
+Info: merlin_router_transform: After transform: 63 modules, 293 connections
+Info: merlin_traffic_limiter_transform: After transform: 64 modules, 298 connections
+Info: merlin_burst_transform: After transform: 67 modules, 310 connections
+Info: reset_adaptation_transform: After transform: 70 modules, 249 connections
+Info: merlin_network_to_switch_transform: After transform: 91 modules, 293 connections
+Info: merlin_width_transform: After transform: 97 modules, 311 connections
+Info: limiter_update_transform: After transform: 97 modules, 312 connections
+Info: merlin_mm_transform: After transform: 97 modules, 312 connections
+Info: merlin_interrupt_mapper_transform: After transform: 98 modules, 315 connections
+Info: avalon_st_adapter: Inserting data_format_adapter: data_format_adapter_0
+Error: avalon_st_adapter.data_format_adapter_0: When using packets, the width of the output must be a multiple of the width of the input, or vice-versa
+Info: com_altera_sopcmodel_transforms_avalonst_AvalonStreamingTransform: After transform: 99 modules, 318 connections
+Warning: nios_system: "No matching role found for CPU_custom_instruction_master_translator:ci_slave:ci_slave_result (result)"
+Warning: nios_system: "No matching role found for CPU_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_ipending (ipending)"
+Warning: nios_system: "No matching role found for CPU_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_estatus (estatus)"
+Error: Generation stopped, 88 or more modules remaining
+Info: nios_system: Done nios_system" with 40 modules, 1 files, 490844 bytes
+Error: ip-generate failed with exit code 1: 2 Errors, 3 Warnings
+Info: Finished: Create HDL design files for synthesis

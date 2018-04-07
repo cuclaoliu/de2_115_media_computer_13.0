@@ -1,0 +1,239 @@
+!SESSION 2018-04-05 08:05:28.519 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-05 08:45:54.002
+!MESSAGE Indexed 'media_bsp' (98 sources, 85 headers) in 2.36 sec: 2,634 declarations; 8,849 references; 151 unresolved inclusions; 5 syntax errors; 436 unresolved names (3.66%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-05 08:46:07.009
+!MESSAGE Indexed 'media' (1 sources, 13 headers) in 0.03 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-05 09:49:39.742
+!MESSAGE Indexed 'media_bsp' (98 sources, 85 headers) in 1.92 sec: 2,634 declarations; 8,849 references; 151 unresolved inclusions; 5 syntax errors; 436 unresolved names (3.66%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-05 09:49:49.774
+!MESSAGE Indexed 'media' (1 sources, 13 headers) in 0.02 sec: 1 declarations; 1 references; 14 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-05 09:59:36.273
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1522886092]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-05 09:59:42.308
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1522886092 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-05 10:06:15.597
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-05 10:06:20.615
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1522886092]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-05 10:06:26.529
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1522886092 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+!SESSION 2018-04-06 12:03:01.314 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-04-06 12:11:43.688
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-04-06 12:11:44.126
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 12:12:57.689
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1522986294]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 12:13:03.733
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1522986294 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 12:19:49.741
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 12:19:53.694
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1522986294]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 12:19:58.510
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1522986294 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+!SESSION 2018-04-06 20:22:07.914 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-04-06 20:31:44.761
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1522986294", expected: "1522993813".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-04-06 20:31:44.824
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1522986294", expected: "1522993813".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 20:55:40.249
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 20:55:44.818
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:21:13.484
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:21:17.406
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:21:22.004
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:22:25.604
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:22:29.604
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:22:34.141
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:23:32.939
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:23:36.935
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:23:41.404
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:25:20.824
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:25:24.820
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:25:29.188
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:26:36.603
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:26:40.997
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:28:35.187
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:28:39.165
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:28:43.564
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:29:57.057
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:30:01.073
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:30:05.426
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:31:29.789
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:31:34.703
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:34:26.182
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:34:30.104
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-06 21:34:34.589
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
+!SESSION 2018-04-07 10:16:26.181 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-04-07 10:35:47.614
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2018-04-07 10:35:47.676
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:555)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-07 10:36:53.802
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10002020 --id=0x0 --timestamp=1523017966]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2018-04-07 10:36:58.352
+!MESSAGE Executing: [C:/altera/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10002020 --id=0x0 --timestamp=1523017966 /cygdrive/d/MyDocs/altera/de2_115_media_computer_13.0/software/media/media.elf]
